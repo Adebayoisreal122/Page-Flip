@@ -11,8 +11,8 @@ const About = () => {
             <h1 className='text-2xl inline-block text-center pb-1  border-b-2 border-orange-500 xl:text-3xl font-bold  text-orange-500'>
                 About me
             </h1>
-        </div>
         <p className='text-slate-500 md:w-[80%] mx-auto  mt-2 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing Iusto.</p>
+        </div>
         {/* details section */}
         <div className='flex flex-col gap-2 mt-5'>
             <p className='text-slate-500 md:w-[80%] mx-auto text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore nobis nulla magni porro? Maiores libero soluta tenetur nulla cumque.</p>
