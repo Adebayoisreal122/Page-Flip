@@ -5,16 +5,16 @@ const FirstPage = () => {
   return (
     <div className='h-full'>
         <main className='h-full w-full page-shadow'>
-    <div>
+    <div className='p-2  space-y-3 flex flex-col  h-full'>
         {/* Image section */}
 <div>
 <img src={personImg} alt="" className='w-[200px] mx-auto'/>
 </div>
 {/* Text section */}
-<div className='p-2 gap-2 flex flex-col justify-center'>
+<div className='gap-2 flex flex-col justify-center'>
 <p className=' uppercase font-bold text-orange-500'>Hello!</p>
 <p className='text-3xl font-bold text-black/80'>i'm Isrealight</p>
-<p className=' text-black/75'>Full Stack Developer</p>
+<p className='font-bold text-black/75'>Full Stack Developer</p>
 <p>
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo labore nobis nulla magni porro? Maiores libero soluta tenetur nulla cumque.
 </p>
